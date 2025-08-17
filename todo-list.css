@@ -1,0 +1,40 @@
+body{
+	font-family: Arial;
+	background-color: #fdf6e3;
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
+  transition: all 0.2s ease-in-out;
+}
+
+.todo-grid, .input_grid {
+	display: grid;
+	grid-template-columns: 200px 150px 100px;
+	column-gap: 10px;
+	row-gap: 10px;
+}
+
+.input_grid {
+	margin-bottom: 10px;
+}
+
+.input {
+	font-size: 15px;
+	padding: 6px;
+}
+
+.add_button {
+	background-color: green;
+	border: none;
+	color: white;
+	font-size: 15px;
+}
+
+.delete_button {
+	background-color: darkred;
+	border: none;
+	color: white;
+	font-size: 15px;
+}
